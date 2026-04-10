@@ -1,0 +1,29 @@
+#theme
+#theme = Catppuccin Mocha
+theme = Dracula
+
+# Font
+font-family = JetBrainsMono Nerd Font
+font-size = 12
+
+# Cursor
+cursor-style = block
+
+# Padding
+window-padding-x = 8
+window-padding-y = 8
+
+# Scrollback
+scrollback-limit = 100000
+
+# True color
+term = xterm-256color
+
+# Background
+background-blur = 1
+background-opacity = 0.75
+desktop-notifications = true
+
+#shortcuts
+keybind = cmd+t=unbind
+keybind = cmd+shift+t=new_tab

@@ -1,0 +1,9 @@
+[[mgr.prepend_keymap]]
+on   = [ "g", "f" ]
+run  = 'shell -- open "$PWD"'
+desc = "Open current directory in Finder"
+
+[[mgr.prepend_keymap]]
+on   = [ "g", "m" ]
+run  = "shell -- code %h"
+desc = "Open hovered file in VS Code"

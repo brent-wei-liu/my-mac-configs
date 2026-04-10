@@ -1,0 +1,41 @@
+" 基础
+set nocompatible
+syntax on
+set encoding=utf-8
+
+" 行号
+set number
+
+" 搜索
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+" 缩进
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set autoindent
+set smartindent
+
+" 显示
+set cursorline
+set showmatch
+set ruler
+
+" 颜色
+set t_Co=256
+set background=dark
+
+" 滚动
+set scrolloff=5
+set mouse=a
+
+" 快捷键
+set wildmenu
+
+" 关闭备份
+set nobackup
+set nowritebackup
+set noswapfile

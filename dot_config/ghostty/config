@@ -27,3 +27,5 @@ desktop-notifications = true
 #shortcuts
 keybind = cmd+t=unbind
 keybind = cmd+shift+t=new_tab
+
+shell-integration-features = no-title

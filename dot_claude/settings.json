@@ -1,0 +1,60 @@
+{
+  "permissions": {
+    "requireApproval": [
+      "Write",
+      "Edit",
+      "NotebookEdit",
+      "Bash"
+    ]
+  },
+  "model": "opus",
+  "attribution": {
+    "commit": ""
+  },
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -title 'Claude Code' -message \"${CLAUDE_AGENT_NAME}:Claude needs your attention\"; afplay /System/Library/Sounds/Glass.aiff"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "terminal-notifier -title 'Claude Code' -message \"${CLAUDE_AGENT_NAME}: finished\";  afplay /System/Library/Sounds/Hero.aiff"
+          }
+        ]
+      }
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "/opt/homebrew/bin/node /Users/weiliu/.claude/plugins/cache/claude-hud/claude-hud/0.0.10/dist/index.js"
+  },
+  "enabledPlugins": {
+    "context7@claude-plugins-official": true,
+    "claude-hud@claude-hud": true,
+    "superpowers@claude-plugins-official": true
+  },
+  "extraKnownMarketplaces": {
+    "claude-hud": {
+      "source": {
+        "source": "github",
+        "repo": "jarrodwatts/claude-hud"
+      }
+    },
+    "obsidian-skills": {
+      "source": {
+        "source": "github",
+        "repo": "kepano/obsidian-skills"
+      }
+    }
+  }
+}

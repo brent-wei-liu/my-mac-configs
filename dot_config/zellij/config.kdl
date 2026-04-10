@@ -356,7 +356,8 @@ default_mode "normal"
 //   - true (default, enabled)
 //   - false
 // 
-// pane_frames false
+pane_frames false
+set_title true
  
 // When attaching to an existing session with other users,
 // should the session be mirrored (true)
@@ -583,3 +584,6 @@ scrollback_editor "/usr/bin/vim"
 // Note: This only applies to web clients at the moment.
 // client_async_worker_tasks 4
 default_layout "default-layout"
+paste_to_editor true
+session_serialization true
+serialize_pane_viewport true

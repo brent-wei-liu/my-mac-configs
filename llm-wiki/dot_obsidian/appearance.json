@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Blue Topaz",
+  "theme": "obsidian",
+  "interfaceFontFamily": "PingFang SC",
+  "textFontFamily": "JetBrains Mono",
+  "translucency": true,
+  "enabledCssSnippets": [
+    "clean"
+  ],
+  "baseFontSize": 14
+}

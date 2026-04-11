@@ -1,1 +1,11 @@
 README.md
+
+# macOS filesystem metadata
+.DS_Store
+
+# Obsidian — volatile/local state we don't want to sync
+llm-wiki/.obsidian/workspace.json
+llm-wiki/.obsidian/workspace-mobile.json
+llm-wiki/.obsidian/workspaces.json
+llm-wiki/.obsidian/graph.json
+llm-wiki/.obsidian/plugins

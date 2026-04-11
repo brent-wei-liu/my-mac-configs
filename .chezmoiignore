@@ -8,4 +8,10 @@ llm-wiki/.obsidian/workspace.json
 llm-wiki/.obsidian/workspace-mobile.json
 llm-wiki/.obsidian/workspaces.json
 llm-wiki/.obsidian/graph.json
-llm-wiki/.obsidian/plugins
+
+# Obsidian plugin binaries — re-installed from community-plugins.json.
+# Only each plugin's data.json (user settings) should be tracked.
+llm-wiki/.obsidian/plugins/*/main.js
+llm-wiki/.obsidian/plugins/*/manifest.json
+llm-wiki/.obsidian/plugins/*/styles.css
+llm-wiki/.obsidian/plugins/*/main.css

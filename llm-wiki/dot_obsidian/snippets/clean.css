@@ -6,17 +6,17 @@ body {
 }
 
 /* ===== Heading spacing: Reading mode ===== */
-.markdown-rendered h1,
+/* .markdown-rendered h1, */
 .markdown-rendered h2,
 .markdown-rendered h3,
 .markdown-rendered h4,
 .markdown-rendered h5,
 .markdown-rendered h6 {
-  margin-top: 1.0em !important;
+  margin-top: 0.7em !important;
   margin-bottom: 0.12em !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  line-height: 1.25 !important;
+  line-height: 1.2em !important;
 }
 
 /* 标题后面紧跟正文时，把正文上边距也压掉 */
@@ -30,10 +30,35 @@ body {
 .markdown-rendered ul,
 .markdown-rendered ol {
   margin-block-start: 0.0em !important;
-  margin-block-end: 0 !important;
+  margin-block-end: 0em !important;
 }
 
 .markdown-rendered li {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+}
+
+/* 整个 Properties 区域的行高 */
+.metadata-container {
+  line-height: 1em !important;
+  margin-block-end: 1em !important;
+}
+
+
+/* 默认让 Properties 不显眼 */
+.metadata-container {
+  max-height: 28px !important;
+  overflow: hidden !important;
+  opacity: 0.55 !important;
+  transition: max-height 0.2s ease, opacity 0.2s ease !important;
+}
+
+/* 鼠标移上去时展开 */
+.metadata-container:hover {
+  max-height: 500px !important;
+  opacity: 1 !important;
+}
+
+.inline-title {
+  text-align: center !important;
 }

@@ -41,6 +41,11 @@ chezmoi cd               # jump into the source directory
 chezmoi apply            # re-apply after edits
 ```
 
+如果你直接改了 live 文件（目标位置的文件）而不是 chezmoi 源目录里的文件：
+
+- `chezmoi re-add` — 把 live 文件的改动拉回源目录，让源状态追上你的改动
+- `chezmoi apply` — 反过来，用源状态覆盖 live 文件，丢弃你的改动
+
 ## Upgrading bash on macOS
 
 macOS ships `/bin/bash` as version **3.2.57 from 2014** — Apple froze it at the last

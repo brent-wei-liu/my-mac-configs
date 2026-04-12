@@ -6,37 +6,37 @@ body {
 }
 
 /* ===== Heading spacing: Reading mode ===== */
-/* .markdown-rendered h1, */
+/* .markdown-rendered h1,
 .markdown-rendered h2,
 .markdown-rendered h3,
 .markdown-rendered h4,
 .markdown-rendered h5,
 .markdown-rendered h6 {
-  margin-top: 0.7em !important;
-  margin-bottom: 0.12em !important;
+  margin-top: 2.0em !important;
+  margin-bottom: 1.0em !important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
   line-height: 1.2em !important;
-}
+} */
 
 /* 标题后面紧跟正文时，把正文上边距也压掉 */
-.markdown-rendered p {
+/* .markdown-rendered p {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
   line-height: 1.2em !important;
-}
+} */
 
 /* Reading mode */
-.markdown-rendered ul,
+/* .markdown-rendered ul,
 .markdown-rendered ol {
   margin-block-start: 0.0em !important;
   margin-block-end: 0em !important;
-}
+} */
 
-.markdown-rendered li {
+/* .markdown-rendered li {
   margin-top: 0em !important;
   margin-bottom: 0em !important;
-}
+} */
 
 /* 整个 Properties 区域的行高 */
 .metadata-container {

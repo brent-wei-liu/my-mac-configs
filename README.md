@@ -43,6 +43,7 @@ chezmoi apply            # re-apply after edits
 
 如果你直接改了 live 文件（目标位置的文件）而不是 chezmoi 源目录里的文件：
 
+- `chezmoi diff` — 显示源目录和 live 文件之间的差异。diff 的方向是「如果现在执行 `chezmoi apply`，live 文件会发生什么变化」，也就是从 live 文件的视角看，源状态想把它改成什么样
 - `chezmoi re-add` — 把 live 文件的改动拉回源目录，让源状态追上你的改动
 - `chezmoi apply` — 反过来，用源状态覆盖 live 文件，丢弃你的改动
 

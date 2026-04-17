@@ -1,5 +1,8 @@
 # Some alias
-alias ll="lsd -lh"
+alias ls="lsd"
+alias ll="lsd -lhtr"         # 按时间正序（最新在底部）
+alias tree="lsd --tree"
+
 alias zj="zellij"
 # Tell ls to be colourful
 export CLICOLOR=1

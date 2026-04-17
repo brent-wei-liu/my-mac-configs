@@ -1,4 +1,7 @@
 {
+  "attribution": {
+    "commit": ""
+  },
   "permissions": {
     "requireApproval": [
       "Write",
@@ -8,9 +11,6 @@
     ]
   },
   "model": "opus",
-  "attribution": {
-    "commit": ""
-  },
   "hooks": {
     "Notification": [
       {

@@ -3,6 +3,10 @@ body {
   --h1-size: 1.8em;
   --h2-size: 1.4em;
   --h3-size: 1.2em;
+  --font-text: "JetBrainsMono Nerd Font", "PingFang SC", sans-serif;
+  --font-interface: "JetBrainsMono Nerd Font", "PingFang SC", sans-serif;
+  --font-monospace: "JetBrainsMono Nerd Font", monospace;
+  --letter-space-main: 1;
 }
 
 /* ===== Heading spacing: Reading mode ===== */
@@ -58,6 +62,7 @@ body {
   max-height: 500px !important;
   opacity: 1 !important;
 }
+
 
 .inline-title {
   text-align: center !important;

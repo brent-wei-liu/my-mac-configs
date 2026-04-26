@@ -2,5 +2,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "root",
   "newFileFolderPath": "",
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "showLineNumber": true,
+  "defaultViewMode": "preview"
 }

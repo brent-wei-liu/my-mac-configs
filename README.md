@@ -14,7 +14,21 @@ Personal dotfiles managed with [chezmoi](https://www.chezmoi.io/).
 | `dot_config/starship.toml` | Starship prompt |
 | `dot_config/yazi/` | Yazi file manager (+ `glow` and `piper` plugins) |
 | `dot_config/zellij/` | Zellij terminal multiplexer |
-| `private_Documents/Keyboard Maestro macros/` | Keyboard Maestro macros (deployed with restricted perms) |
+| `private_Library/…/Keyboard Maestro Macros.plist` | Keyboard Maestro macros (canonical plist, binary) |
+
+## Keyboard Maestro 宏同步
+
+KM 的宏全部存在 `~/Library/Application Support/Keyboard Maestro/Keyboard Maestro Macros.plist`（二进制 plist）。KM 改完宏后同步到 chezmoi：
+
+```bash
+chezmoi re-add ~/Library/Application\ Support/Keyboard\ Maestro/Keyboard\ Maestro\ Macros.plist
+```
+
+`.gitattributes` 里配了 `diff=plist` textconv，`git diff` 会自动把二进制 plist 转成 XML 显示。新机器 clone 后需要跑一次：
+
+```bash
+git config diff.plist.textconv 'plutil -convert xml1 -o -'
+```
 
 ## chezmoi naming conventions
 

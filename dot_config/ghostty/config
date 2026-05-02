@@ -9,6 +9,7 @@ font-size = 12
 
 # Cursor
 cursor-style = block
+cursor-style-blink = true
 
 # Padding
 window-padding-x = 8
@@ -28,5 +29,7 @@ desktop-notifications = true
 #shortcuts
 keybind = cmd+t=unbind
 keybind = cmd+shift+t=new_tab
+keybind = shift+enter=text:\n
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
 
 shell-integration-features = no-title

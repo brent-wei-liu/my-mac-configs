@@ -7,3 +7,13 @@ desc = "Open current directory in Finder"
 on   = [ "g", "m" ]
 run  = "shell -- code %h"
 desc = "Open hovered file in VS Code"
+
+[[mgr.prepend_keymap]]
+on = "M"
+run = "plugin toggle-pane max-preview"
+desc = "Maximize or restore preview"
+
+[[mgr.prepend_keymap]]
+on = "<A-p>"
+run = "plugin toggle-pane min-preview"
+desc = "Toggle preview pane"

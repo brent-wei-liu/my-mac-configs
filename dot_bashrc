@@ -75,4 +75,3 @@ if command -v fd >/dev/null 2>&1; then
 fi
 
 # claude code cli
-export ANTHROPIC_MODEL="claude-opus-4-6"
